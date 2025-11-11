@@ -18,10 +18,24 @@ const TrackIcon = () => (
 );
 
 const services = [
-  { name: 'Pflasterarbeiten', description: 'Professionelle Verlegung für Wege, Einfahrten und Terrassen.', icon: <PavingIcon /> },
-  { name: 'Steinarbeiten', description: 'Individuelle Gestaltung mit Naturstein, Mauern und Zier-Elementen.', icon: <StoneworkIcon /> },
-  { name: 'Garten- & Landschaftsbau', description: 'Komplette Neuanlagen und Umgestaltungen von Gärten.', icon: <GardenIcon /> },
+  { 
+  name: 'Pflasterarbeiten',
+description: 'Professionelle Verlegung von Pflastersteinen für Einfahrten, Terrassen, Wege und Treppen – zuverlässig, präzise und langlebig.',
+
+    icon: <PavingIcon /> 
+  },
+  { 
+    name: 'Steinarbeiten', 
+    description: 'Individuelle Gestaltung mit Naturstein, Mauern und Zier-Elementen.', 
+    icon: <StoneworkIcon /> 
+  },
+  { 
+    name: 'Garten- & Landschaftsbau', 
+    description: 'Komplette Neuanlagen und Umgestaltungen von Gärten.', 
+    icon: <GardenIcon /> 
+  },
 ];
+
 
 const Services: React.FC = () => {
   return (
@@ -33,7 +47,7 @@ const Services: React.FC = () => {
             Wir bieten ein breites Spektrum an Dienstleistungen, um Ihre Visionen Wirklichkeit werden zu lassen.
           </p>
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+<div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
           {services.map((service, index) => (
             <div key={index} className="bg-dark-bg p-8 rounded-lg shadow-xl text-center flex flex-col items-center transform hover:-translate-y-2 transition-transform duration-300">
               {service.icon}
