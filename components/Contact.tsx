@@ -49,7 +49,7 @@ const Contact: React.FC = () => {
 
                     {/* Formulari me Formspree */}
                     <form
-                        action="https://formspree.io/f/mldadrgj" // ← vendose linkun tënd nga Formspree
+                        action="https://formspree.io/f/mjkjkbeq" // ← vendose linkun tënd nga Formspree
                         method="POST"
                         className="space-y-4"
                     >
