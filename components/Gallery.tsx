@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const galleryImages = [
   { src: '/assets/gallery/sc1.png', alt: 'Breite gepflasterte Einfahrt vor einer modernen Garage' },
-  { src: '/assets/gallery/img5.jpeg', alt: 'Neu gepflasterter Bürgersteig neben Straßenbahnschienen in der Stadt' },
+  { src: '/assets/gallery/4.jpg', alt: 'Neu gepflasterter Bürgersteig neben Straßenbahnschienen in der Stadt' },
   { src: '/assets/gallery/img3.jpeg', alt: 'Nahaufnahme von grauen Pflastersteinen auf einer Baustelle' },
   { src: '/assets/gallery/img4.jpeg', alt: 'Arbeiter verlegen Rasengittersteine zwischen Gleisen' },
   { src: '/assets/gallery/img2.jpeg', alt: 'Fertiggestellte Pflasterfläche vor einer Doppelgarage' },
